@@ -2,8 +2,8 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-.navbar-dark {
-  background-image: url('../img-header/fun.jpg');
+.navbar-dark{
+  background-image: url(../img-header/fun.jpg);
 }
 
 .navbar-brand {
@@ -17,27 +17,46 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #d83782;
-  background-image: url('../img-header/fun.jpg');
-  background-repeat:round;
+  background-color: #010101;
 }
+
+.stars{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 0.5px;
+  width: 0.5px;
+  background-color: rgb(235, 229, 229);
+  border-radius: 0.25px;
+  box-shadow: 14vw 7vh 1px 3px #fff,-22vw 46vh 2px 1px #fff,-30vw 0vh 1px 0px #fff,-13vw -47vh 0px 3px #fff,-43vw -33vh 3px 1px #fff,-17vw 39vh 2px 3px #fff,-5vw 5vh 3px 2px #fff,35vw -44vh 3px 0px #fff,19vw -18vh 0px 1px #fff,-17vw 11vh 2px 2px #fff,-50vw -1vh 0px 0px #fff,-50vw 43vh 1px 2px #fff,24vw -2vh 0px 1px #fff,-28vw -46vh 0px 0px #fff,6vw -33vh 2px 1px #fff,-44vw -16vh 3px 3px #fff,49vw 16vh 1px 3px #fff,-36vw -32vh 3px 0px #fff,-43vw 46vh 0px 3px #fff,-50vw -29vh 1px 3px #fff,47vw -47vh 2px 0px #fff,-1vw -33vh 3px 1px #fff,38vw 48vh 0px 3px #fff,29vw 20vh 2px 2px #fff,38vw -3vh 0px 1px #fff,17vw -49vh 0px 0px #fff,-42vw 0vh 3px 0px #fff,0vw -10vh 3px 1px #fff,45vw 37vh 1px 3px #fff,8vw 31vh 2px 1px #fff,29vw -28vh 0px 2px #fff,-22vw 29vh 1px 2px #fff,-40vw -33vh 2px 3px #fff,19vw -13vh 1px 0px #fff,-2vw 33vh 1px 2px #fff,-37vw 28vh 0px 3px #fff,49vw -36vh 1px 0px #fff,15vw -45vh 0px 1px #fff,-12vw 41vh 3px 2px #fff,-33vw 44vh 1px 2px #fff,-17vw 42vh 3px 0px #fff,14vw 50vh 2px 1px #fff,-26vw 31vh 1px 1px #fff,-30vw -24vh 1px 2px #fff,3vw 46vh 0px 0px #fff,-44vw -13vh 2px 1px #fff,49vw 41vh 0px 3px #fff,9vw 41vh 1px 1px #fff,-22vw 28vh 0px 0px #fff,-6vw -17vh 2px 2px #fff,6vw 40vh 1px 1px #fff,-10vw 25vh 2px 0px #fff,-30vw 42vh 2px 3px #fff,9vw 48vh 1px 2px #fff,-18vw -2vh 3px 0px #fff,-43vw 17vh 3px 0px #fff,10vw -39vh 3px 2px #fff,-4vw -13vh 2px 1px #fff,-46vw -12vh 3px 2px #fff,-17vw -18vh 2px 3px #fff,38vw 40vh 2px 1px #fff,-30vw 44vh 0px 3px #fff,30vw -49vh 2px 0px #fff,-48vw 5vh 2px 3px #fff,-5vw 39vh 2px 0px #fff,26vw 25vh 1px 3px #fff,-1vw -44vh 1px 2px #fff,-27vw 7vh 2px 1px #fff,-11vw 1vh 2px 2px #fff,-19vw 41vh 0px 1px #fff,29vw 0vh 1px 3px #fff,26vw 34vh 2px 1px #fff,-25vw -48vh 3px 2px #fff,11vw 40vh 1px 0px #fff,-28vw -23vh 1px 1px #fff,10vw -17vh 3px 2px #fff,18vw -45vh 3px 2px #fff,-36vw 9vh 1px 0px #fff,3vw -22vh 1px 0px #fff,-49vw -14vh 2px 2px #fff,20vw -8vh 1px 0px #fff,-43vw -47vh 3px 0px #fff,-42vw -15vh 1px 0px #fff,-6vw 38vh 3px 1px #fff,-37vw -44vh 3px 0px #fff,-31vw 1vh 0px 0px #fff,41vw -5vh 3px 1px #fff,12vw -47vh 0px 3px #fff,-41vw 17vh 2px 0px #fff,7vw -10vh 2px 3px #fff,17vw -5vh 2px 0px #fff,44vw 42vh 1px 1px #fff,-36vw 29vh 2px 1px #fff,1vw -5vh 3px 0px #fff,22vw 44vh 1px 1px #fff, -17vw -21vh 2px 2px #fff,-13vw 30vh 1px 0px #fff,1vw -14vh 1px 3px #fff,-30vw -17vh 2px 3px #fff,0vw -14vh 2px 0px #fff,-15vw 31vh 2px 3px #fff,48vw 44vh 0px 3px #fff,-18vw -32vh 2px 3px #fff,-37vw 30vh 2px 3px #fff,-36vw -3vh 3px 3px #fff,4vw 44vh 1px 3px #fff,-40vw -44vh 0px 1px #fff,25vw -12vh 0px 3px #fff,-48vw 40vh 0px 1px #fff,11vw 46vh 0px 0px #fff,-25vw -1vh 0px 0px #fff,-5vw -6vh 3px 2px #fff,-1vw -21vh 1px 2px #fff,19vw 32vh 2px 3px #fff,-37vw 13vh 2px 2px #fff,2vw 47vh 0px 1px #fff,-49vw 24vh 1px 0px #fff,-27vw 39vh 0px 3px #fff,34vw -40vh 2px 1px #fff,-22vw -25vh 3px 3px #fff,9vw 7vh 1px 1px #fff,-47vw 39vh 1px 1px #fff,-10vw -22vh 0px 0px #fff,-14vw 0vh 1px 3px #fff,-49vw 5vh 3px 2px #fff,8vw 17vh 1px 2px #fff,24vw -42vh 3px 0px #fff,-49vw -33vh 0px 2px #fff,17vw 41vh 0px 2px #fff,-8vw 12vh 1px 1px #fff,-39vw 19vh 3px 1px #fff,-7vw 49vh 2px 3px #fff,-46vw -29vh 2px 1px #fff,-20vw -4vh 3px 0px #fff,11vw 43vh 0px 1px #fff,-33vw 37vh 2px 2px #fff,39vw 18vh 0px 3px #fff,-14vw -13vh 1px 1px #fff,46vw -4vh 2px 1px #fff,40vw -43vh 3px 3px #fff,29vw 43vh 3px 3px #fff,-13vw -26vh 3px 0px #fff,-19vw -17vh 1px 2px #fff,-14vw 31vh 2px 0px #fff,44vw 24vh 1px 0px #fff,-10vw -21vh 1px 1px #fff,-22vw -40vh 3px 2px #fff,13vw 27vh 1px 0px #fff,-43vw -22vh 3px 0px #fff,-44vw -5vh 0px 3px #fff,47vw 15vh 0px 2px #fff,-23vw 0vh 1px 0px #fff,-27vw 40vh 1px 2px #fff,-2vw -8vh 2px 1px #fff,-43vw 45vh 0px 1px #fff,-50vw 1vh 3px 3px #fff,5vw 43vh 2px 2px #fff,-13vw 7vh 2px 0px #fff,32vw -2vh 3px 1px #fff,17vw 44vh 3px 2px #fff,6vw 38vh 2px 1px #fff,-32vw -2vh 1px 0px #fff,-20vw 49vh 0px 1px #fff,20vw -19vh 2px 1px #fff,1vw 14vh 1px 0px #fff,23vw -20vh 0px 1px #fff,6vw 7vh 2px 1px #fff,4vw 24vh 3px 0px #fff,1vw -43vh 1px 1px #fff,-7vw -46vh 1px 1px #fff,-2vw -33vh 2px 1px #fff,11vw -19vh 1px 2px #fff,5vw 36vh 3px 1px #fff,40vw 20vh 2px 2px #fff,8vw 8vh 3px 0px #fff,4vw -25vh 3px 2px #fff,-26vw 26vh 1px 2px #fff,16vw 6vh 2px 3px #fff,29vw 13vh 1px 2px #fff,26vw -24vh 2px 3px #fff,-36vw -19vh 2px 3px #fff,34vw -36vh 2px 3px #fff,10vw -43vh 1px 3px #fff,44vw -3vh 0px 0px #fff,-33vw 21vh 2px 0px #fff,46vw -39vh 2px 3px #fff,43vw 18vh 0px 1px #fff,41vw -39vh 0px 0px #fff,-9vw 22vh 0px 0px #fff,0vw -12vh 1px 2px #fff,29vw 49vh 2px 0px #fff,-33vw 10vh 1px 2px #fff,-19vw 49vh 0px 2px #fff,2vw -33vh 0px 3px #fff,12vw -15vh 1px 1px #fff, -17vw -21vh 2px 2px #fff,-13vw 30vh 1px 0px #fff,1vw -14vh 1px 3px #fff,-30vw -17vh 2px 3px #fff,0vw -14vh 2px 0px #fff,-15vw 31vh 2px 3px #fff,48vw 44vh 0px 3px #fff,-18vw -32vh 2px 3px #fff,-37vw 30vh 2px 3px #fff,-36vw -3vh 3px 3px #fff,4vw 44vh 1px 3px #fff,-40vw -44vh 0px 1px #fff,25vw -12vh 0px 3px #fff,-48vw 40vh 0px 1px #fff,11vw 46vh 0px 0px #fff,-25vw -1vh 0px 0px #fff,-5vw -6vh 3px 2px #fff,-1vw -21vh 1px 2px #fff,19vw 32vh 2px 3px #fff,-37vw 13vh 2px 2px #fff,2vw 47vh 0px 1px #fff,-49vw 24vh 1px 0px #fff,-27vw 39vh 0px 3px #fff,34vw -40vh 2px 1px #fff,-22vw -25vh 3px 3px #fff,9vw 7vh 1px 1px #fff,-47vw 39vh 1px 1px #fff,-10vw -22vh 0px 0px #fff,-14vw 0vh 1px 3px #fff,-49vw 5vh 3px 2px #fff,8vw 17vh 1px 2px #fff,24vw -42vh 3px 0px #fff,-49vw -33vh 0px 2px #fff,17vw 41vh 0px 2px #fff,-8vw 12vh 1px 1px #fff,-39vw 19vh 3px 1px #fff,-7vw 49vh 2px 3px #fff,-46vw -29vh 2px 1px #fff,-20vw -4vh 3px 0px #fff,11vw 43vh 0px 1px #fff,-33vw 37vh 2px 2px #fff,39vw 18vh 0px 3px #fff,-14vw -13vh 1px 1px #fff,46vw -4vh 2px 1px #fff,40vw -43vh 3px 3px #fff,29vw 43vh 3px 3px #fff,-13vw -26vh 3px 0px #fff,-19vw -17vh 1px 2px #fff,-14vw 31vh 2px 0px #fff,44vw 24vh 1px 0px #fff,-10vw -21vh 1px 1px #fff,-22vw -40vh 3px 2px #fff,13vw 27vh 1px 0px #fff,-43vw -22vh 3px 0px #fff,-44vw -5vh 0px 3px #fff,47vw 15vh 0px 2px #fff,-23vw 0vh 1px 0px #fff,-27vw 40vh 1px 2px #fff,-2vw -8vh 2px 1px #fff,-43vw 45vh 0px 1px #fff,-50vw 1vh 3px 3px #fff,5vw 43vh 2px 2px #fff,-13vw 7vh 2px 0px #fff,32vw -2vh 3px 1px #fff,17vw 44vh 3px 2px #fff,6vw 38vh 2px 1px #fff,-32vw -2vh 1px 0px #fff,-20vw 49vh 0px 1px #fff,20vw -19vh 2px 1px #fff,1vw 14vh 1px 0px #fff,23vw -20vh 0px 1px #fff,6vw 7vh 2px 1px #fff,4vw 24vh 3px 0px #fff,1vw -43vh 1px 1px #fff,-7vw -46vh 1px 1px #fff,-2vw -33vh 2px 1px #fff,11vw -19vh 1px 2px #fff,5vw 36vh 3px 1px #fff,40vw 20vh 2px 2px #fff,8vw 8vh 3px 0px #fff,4vw -25vh 3px 2px #fff,-26vw 26vh 1px 2px #fff,16vw 6vh 2px 3px #fff,29vw 13vh 1px 2px #fff,26vw -24vh 2px 3px #fff,-36vw -19vh 2px 3px #fff,34vw -36vh 2px 3px #fff,10vw -43vh 1px 3px #fff,44vw -3vh 0px 0px #fff,-33vw 21vh 2px 0px #fff,46vw -39vh 2px 3px #fff,43vw 18vh 0px 1px #fff,41vw -39vh 0px 0px #fff,-9vw 22vh 0px 0px #fff,0vw -12vh 1px 2px #fff,29vw 49vh 2px 0px #fff,-33vw 10vh 1px 2px #fff,-19vw 49vh 0px 2px #fff,2vw -33vh 0px 3px #fff,12vw -15vh 1px 1px #fff;
+  animation: zoom 15s alternate infinite;
+  opacity: 0.5;
+}
+
 
 .navbar-brand {
   color: rgb(212, 219, 225);
+  background-image: url(../img-header/fun.jpg);
 }
+
 .text-muted {
   color: rgb(63, 202, 172)!important;
+  background-color: #010101;
 }
 
 .lead { 
   color: rgb(212, 219, 225);
   text-align: justify;
+  background-color: #010101!important;
 }
 
 a {
   color: rgb(212, 219, 225);
+  background-color: #010101;
 }
 .container1 {
   color: rgb(212, 219, 225);
+  background-color: #010101!important;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -88,22 +107,6 @@ a {
   background-color: rgb(63, 202, 172);
 }
 
-/* MARKETING CONTENT
-
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-/* rtl:end:ignore */
-
 
 /* Featurettes
 ------------------------- */
@@ -119,11 +122,13 @@ a {
 hr {
   border-top: 0px solid;
   opacity: 1;
+  background-color: #010101;
 }
 /* Thin out the marketing headings */
 /* rtl:begin:remove */
 .featurette-heading {
   letter-spacing: -.05rem;
+  background-color: #010101;
 }
 
 /* rtl:end:remove */
@@ -148,4 +153,16 @@ hr {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+
+@keyframes zoom{
+  0%{
+          transform: scale(1);
+
+  }
+  100%{
+          transform: scale(1.5);
+  }
+
 }
